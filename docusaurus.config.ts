@@ -3,20 +3,20 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Preon Docs",
-  tagline: "Reach for the $STARs",
-  favicon: "img/favicon.png",
+  title: "Dyson Docs",
+  tagline: "Amplify your APRs",
+  favicon: "img/dyson-favicon.png",
 
   // Set the production url of your site here
-  url: "https://docs.preon.finance",
+  url: "https://docs.dyson.money",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "PreonMoney", // Usually your GitHub org/user name.
-  projectName: "preon-docs", // Usually your repo name.
+  organizationName: "DysonFarm", // Usually your GitHub org/user name.
+  projectName: "dyson-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -60,7 +60,7 @@ const config: Config = {
       // Public API key: it is safe to commit it
       apiKey: "4a5ab78612140f7089edd1d9c406cb48",
 
-      indexName: "preon",
+      indexName: "dyson",
 
       // Optional: see doc section below
       contextualSearch: true,
@@ -93,17 +93,17 @@ const config: Config = {
     metadata: [
       {
         name: "og:title",
-        content: "Preon | Reach for the $STARs",
+        content: "Dyson | Amplify your APRs",
       },
       {
         name: "og:description",
         content:
-          "Preon empowers you to leverage your crypto as collateral, granting quick access to funds without the need to sell or compromise your portfolio.",
+          "Amplify your APRs. Earn maximum yield on top cryptocurrencies.",
       },
       {
         name: "twitter:description",
         content:
-          "Preon empowers you to leverage your crypto as collateral, granting quick access to funds without the need to sell or compromise your portfolio.",
+          "Amplify your APRs. Earn maximum yield on top cryptocurrencies",
       },
       {
         name: "og:image",
@@ -121,10 +121,10 @@ const config: Config = {
     // Replace with your project's social card
     image: "https://assets-global.website-files.com/629a91a5b00da53e513b5098/64d138cac6601eb4d2af7b93_opengraph3.jpg",
     navbar: {
-      title: "Preon",
+      title: "Dyson",
       logo: {
-        alt: "Preon logo",
-        src: "img/preon-logo.png",
+        alt: "Dyson logo",
+        src: "img/dyson-logo.png",
       },
       items: [
         {
@@ -191,11 +191,11 @@ const config: Config = {
           items: [
             {
               label: "Home",
-              href: "https://preon.finance/",
+              href: "https://www.dyson.money/",
             },
             {
               label: "App",
-              href: "https://app.preon.finance/",
+              href: "https://app.dyson.money/all",
             },
             // {
             //   label: "Analytics",
@@ -205,10 +205,10 @@ const config: Config = {
             //   label: "Token Lists",
             //   href: "https://tokenlists.org/",
             // },
-            {
-              label: "Brand Assets",
-              href: "/docs/Information/Brand%20Assets",
-            },
+           // {
+           //   label: "Brand Assets",
+            //  href: "/docs/Information/Brand%20Assets",
+           // },
           ],
         },
         {
@@ -220,15 +220,15 @@ const config: Config = {
             // },
             {
               label: "Discord",
-              href: "https://discord.com/invite/preon",
+              href: "https://discord.com/invite/spheredefi",
             },
             {
               label: "X (Twitter)",
-              href: "https://x.com/PreonFinance",
+              href: "https://x.com/dyson_money",
             },
             {
               label: "Blog",
-              href: "https://preonfinance.medium.com/",
+              href: "https://medium.com/@dyson.money",
             },
           ],
         },
