@@ -97,21 +97,19 @@ const config: Config = {
       },
       {
         name: "og:description",
-        content:
-          "Amplify your APRs. Earn maximum yield on top cryptocurrencies.",
+        content: "Amplify your APRs. Earn maximum yield on top cryptocurrencies.",
       },
       {
         name: "twitter:description",
-        content:
-          "Amplify your APRs. Earn maximum yield on top cryptocurrencies",
+        content: "Amplify your APRs. Earn maximum yield on top cryptocurrencies",
       },
       {
         name: "og:image",
-        content: "https://assets-global.website-files.com/629a91a5b00da53e513b5098/64d138cac6601eb4d2af7b93_opengraph3.jpg", // URL to your OG image
+        content: "img/dyson-og.png", // URL to your OG image
       },
       {
         name: "twitter:image",
-        content: "https://assets-global.website-files.com/629a91a5b00da53e513b5098/64d138cac6601eb4d2af7b93_opengraph3.jpg", // URL to your OG image
+        content: "img/dyson-og.png", // URL to your OG image
       },
     ],
     // metadata: [
@@ -119,7 +117,7 @@ const config: Config = {
     //   {name: 'twitter:card', content: 'summary_large_image'},
     // ],
     // Replace with your project's social card
-    image: "https://assets-global.website-files.com/629a91a5b00da53e513b5098/64d138cac6601eb4d2af7b93_opengraph3.jpg",
+    image: "img/dyson-og.png",
     navbar: {
       title: "Dyson",
       logo: {
@@ -205,10 +203,10 @@ const config: Config = {
             //   label: "Token Lists",
             //   href: "https://tokenlists.org/",
             // },
-           // {
-           //   label: "Brand Assets",
+            // {
+            //   label: "Brand Assets",
             //  href: "/docs/Information/Brand%20Assets",
-           // },
+            // },
           ],
         },
         {
